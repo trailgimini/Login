@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Themed Login Panels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="layout">
+    <section class="login-card theme-nature" aria-labelledby="nature-title">
+      <h1 id="nature-title">Forest Login</h1>
+      <p class="subtitle">Inspired by fresh leaves, soft light, and calm greens.</p>
+
+      <form>
+        <label for="nature-email">Email</label>
+        <input id="nature-email" type="email" placeholder="you@example.com" required>
+
+        <label for="nature-password">Password</label>
+        <input id="nature-password" type="password" placeholder="••••••••" required>
+
+        <button type="submit">Sign In</button>
+      </form>
+    </section>
+
+    <section class="login-card theme-moss" aria-labelledby="moss-title">
+      <h2 id="moss-title">Moss Glow Login</h2>
+      <p class="subtitle">Alternative nature style with earthy tones and warm highlights.</p>
+
+      <form>
+        <label for="moss-email">Email</label>
+        <input id="moss-email" type="email" placeholder="you@example.com" required>
+
+        <label for="moss-password">Password</label>
+        <input id="moss-password" type="password" placeholder="••••••••" required>
+
+        <button type="submit">Continue</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
